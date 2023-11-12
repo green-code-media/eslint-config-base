@@ -1,0 +1,30 @@
+{
+  "name": "@green-code/eslint-config-base",
+  "version": "1.0.1",
+  "description": "Eslint Config Base",
+  "main": "index.js",
+  "license": "MIT",
+  "prettier": "@green-code/prettier-config",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "homepage": "https://github.com/green-code/eslint-config-base",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/green-code/eslint-config-base"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "latest",
+    "eslint-config-airbnb-base": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-prettier": "latest"
+  },
+  "devDependencies": {
+    "@green-code/prettier-config": "github:green-code-media/prettier-config",
+    "prettier": "3.0.3"
+  }
+}
