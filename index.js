@@ -1,7 +1,7 @@
 module.exports = {
   plugins: ["@typescript-eslint/eslint-plugin"],
   extends: ["standard-with-typescript", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"],
-  ignorePatterns: ["build/**/*"],
+  ignorePatterns: ["build/**/*", "dist/**/*"],
   rules: {
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/strict-boolean-expressions": "off",
