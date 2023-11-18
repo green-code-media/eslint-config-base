@@ -1,6 +1,6 @@
 {
   "name": "@green-code/eslint-config-base",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Eslint Config Base",
   "main": "index.js",
   "license": "MIT",
