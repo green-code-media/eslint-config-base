@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "@green-code/prettier-config": "github:green-code-media/prettier-config",
+    "eslint-config-standard-with-typescript": "40.0.0",
     "prettier": "3.0.3"
   }
 }
