@@ -1,6 +1,6 @@
 module.exports = {
   plugins: ["@typescript-eslint/eslint-plugin"],
-  extends: ["standard-with-typescript", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"],
+  extends: ["airbnb-base-typescript-prettier", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"],
   ignorePatterns: ["build/**/*", "dist/**/*"],
   rules: {
     "@typescript-eslint/explicit-module-boundary-types": "off",
